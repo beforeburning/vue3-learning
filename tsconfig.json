@@ -15,12 +15,16 @@
     "baseUrl": ".",
     "types": [
       "webpack-env",
-      "jest"
+      "jest",
+      "node"
     ],
     "paths": {
       "@/*": [
         "src/*"
-      ]
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
     },
     "lib": [
       "esnext",
